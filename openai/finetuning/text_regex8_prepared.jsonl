@@ -1,0 +1,335 @@
+{"prompt":"total amount $79.90\n\n###\n\n","completion":" Total\\s*Amount\\s*\\D?\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"grand total: $6.85\n\n###\n\n","completion":" Grand\\s*\\Total\\:\\s*\\$(\\d*[\\.\\,]*\\d{1,2})\n"}
+{"prompt":"  total       $46.55\n\n###\n\n","completion":" \\sTOTAL\\s*\\$([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total amount: 13.70\n\n###\n\n","completion":" (?:Total\\s*Amount|Nett\\s*Total)\\s*\\:?\\s*([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total rm16.00\n\n###\n\n","completion":" \\bTOTAL RM(?:[B√©])?([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total 2.00\n\n###\n\n","completion":" \\bTotal\\s*([\\d,]*\\.*\\d{2})\n"}
+{"prompt":"total                                       1,018.48\n\n###\n\n","completion":" TOTAL\\s*([\\-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total: $35.28\n\n###\n\n","completion":" Total\\:\\s\\$([\\d,]*\\.\\d{2})\n"}
+{"prompt":"payable $36.40\n\n###\n\n","completion":" Payable\\s*\\$?\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"payable                                   $79.80\n\n###\n\n","completion":" \\bPayable\\s+\\$([-\\d,]+.\\d{2})\n"}
+{"prompt":"total                       4     471.55 \n\n###\n\n","completion":" Total\\s+\\d+\\W+([-\\d,]+\\.\\d{1,2})\n"}
+{"prompt":"grand total          25.60\n\n###\n\n","completion":" Grand\\s*Total\\D+([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total 4.90\n\n###\n\n","completion":" TOTAL\\s*([\\-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total rm30.00\n\n###\n\n","completion":" \\bTOTAL\\s+RM([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total                                 $6.3\n\n###\n\n","completion":" Total\\W+([-\\d,]+[\\.]?[\\d{1,2}]?)\n"}
+{"prompt":"total sales inclusive gst@ 7.00% 15.92\n\n###\n\n","completion":" Total\\s*Sales\\s*Inclusive\\s*GST@\\s*\\d+\\.\\d+%\\s*([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total:         $6.50\n\n###\n\n","completion":" Total:\\s*\\$([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total：6.9 \n\n###\n\n","completion":" ^Total\\s*[\\D\\Ôºö\\:]*\\s*([\\d,]*\\.?\\d{1,2})\n"}
+{"prompt":"total (exd tax) 148.50\n\n###\n\n","completion":" Total\\s*\\(.+[\\)\\}]\\s*([\\d,]+[\\.\\,]\\d{2})\n"}
+{"prompt":"amount due:                        53.60\n\n###\n\n","completion":" Amount\\s*Due\\s*:\\s*([\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"total sales: rm21.80\n\n###\n\n","completion":" Total\\s*Sales\\s*:\\s*RM\\s*([\\d,O]+\\.*[\\dO]{2})\n"}
+{"prompt":" total    585.08\n\n###\n\n","completion":" \\s+TOTAL\\s+([\\d,]*\\.*\\d+)\n"}
+{"prompt":"amount due    110.00\n\n###\n\n","completion":" Amount\\s*Due\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total                    2,295.00\n\n###\n\n","completion":" TOTAL\\s*([\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"total                            sgd328.24\n\n###\n\n","completion":" \\bTotal\\s*SGD([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total $80.00\n\n###\n\n","completion":" \\nTOTAL\\s*\\$\\s*([,\\d-]+\\.\\d{2})\n"}
+{"prompt":"total       21.20\n\n###\n\n","completion":" \\bTOTAL\\s*([\\d,]+\\.\\d{2})\n"}
+{"prompt":"amount due:\n\n\n210.00\n\n###\n\n","completion":" AMOUNT\\sDUE\\:[\\s]+([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total\\s*amt\\s*([\\d,]*\\.\\d{2})\n\n###\n\n","completion":" TOTAL\\s*AMT\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total       $47.79\n\n###\n\n","completion":" \\b(?:Tip|TOTAL)\\s*\\$([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total : 48.10\n\n###\n\n","completion":" TOTAL\\s\\:\\s([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total:                       6.10 \n\n###\n\n","completion":" (?:aftr\\s*rounding|Total\\s*:)\\s*([\\d,]+\\.\\d{2}-?)\n"}
+{"prompt":"total   ==>     209.00\n\n###\n\n","completion":" Total\\s*\\=\\=\\>\\s*([-\\d,]+\\.\\d{2})\n"}
+{"prompt":"total       $20.00\n\n###\n\n","completion":" \\bTOTAL\\s*\\$([\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"amount due                           $7.90\n\n###\n\n","completion":" (?:Amount\\s*Due|Roundoff)\\s+\\$*\\(*([\\d,]*\\.?\\d{2})\n"}
+{"prompt":"payable $50.61\n\n###\n\n","completion":" Payable\\s*\\$?\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total:     4.50\n\n###\n\n","completion":" Total\\:\\s*([\\d,]+\\.\\d{2})\\s*\n"}
+{"prompt":"total                                26.12\n\n###\n\n","completion":" \\bTotal\\s*([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"payable $3.60\n\n###\n\n","completion":" Payable\\s*\\$([-\\d,]+\\.\\d{2})\n"}
+{"prompt":"total inc. vat               php1,528.80\n\n###\n\n","completion":" Total\\s*inc\\.\\s*VAT\\s*Php\\s*([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total(qty 5pcs) s$296.00\n\n###\n\n","completion":" ^TOTAL.+[\\$S]{2}\\s*(?:.+Include.+\\s*)?([-\\d,]+[.,]?\\d{2})\n"}
+{"prompt":"amount due: 91.80\n\n###\n\n","completion":" Amount\\s*Due\\:\\s*([\\d,.]+)\n"}
+{"prompt":"total rm170.00\n\n###\n\n","completion":" TOTAL\\s+RM([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total      226.00\n\n###\n\n","completion":" TOTAL\\s+([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total   2500.00\n\n###\n\n","completion":" TOTAL\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total       15.80\n\n###\n\n","completion":" (?:TOTAL|TIPS)\\s*([\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"total incl. gst :                    20.30\n\n###\n\n","completion":" Total\\s*Incl\\.\\s*GST\\s*:\\s*([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"net total                9.90\n\n###\n\n","completion":" Net\\s+Total\\s+([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total        $6.00\n\n###\n\n","completion":" TOTAL\\s+\\$([\\d,]*\\.\\s*\\d{2})\n"}
+{"prompt":"total sales inclusive gst : 12.00\n\n###\n\n","completion":" (?:Total\\s*Sales|Rounding)(?:\\D+|.+\\D)\\s([\\-\\d,]*\\..*)\n"}
+{"prompt":"total 24.00\n\n###\n\n","completion":" Total\\s*([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total sales rm 35. 00\n\n###\n\n","completion":" (?:Total\\s*Sales|Rounding Adjustment\\s*\\:)\\s*RM\\s*([\\-\\d,]*\\s*\\.\\s*\\d{2})\n"}
+{"prompt":"total including sst 116.60\n\n###\n\n","completion":" Total\\s*Including\\s*SST\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"\ntotal 37.65\n\n###\n\n","completion":" \\nTotal\\s*([\\d,]+[\\.,]\\d{2})\n"}
+{"prompt":"grand total $gd117.10\n\n###\n\n","completion":" Grand \\s*Total\\s*\\$*\\D+([\\d,]*\\.\\d{2}|.+)\n"}
+{"prompt":"total                              1,694.00\n\n###\n\n","completion":" \\bTOTAL\\s*([\\d,]+\\.\\d{1,2})\\b\n"}
+{"prompt":"total:    14.90\n\n###\n\n","completion":" Total\\:\\s*([\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"total due 10.00\n\n###\n\n","completion":" T\\wt\\wl\\s*Due\\s*:?\\s*([\\d,]*\\.?\\d{1,2})\n"}
+{"prompt":"total       $26.40\n\n###\n\n","completion":" \\bTOTAL\\s+\\$([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total                      188.10\n\n###\n\n","completion":" \\b(?:TOTAL|total|Total)\\s+([\\d,]+\\.\\d{1,2})\\b\n"}
+{"prompt":"total:                       6.00\n\n###\n\n","completion":" (?:aftr\\s*rounding|Total\\s*:)\\s*([\\d,]+\\.\\d{2}-?)\n"}
+{"prompt":"subtotal 69.30\ngrand total rm69.30\n\n###\n\n","completion":" (?:Grand\\s*Total|Subtotal)\\s*(?:RM)?\\s*(\\$*[\\d,]*\\.\\d{2})\n"}
+{"prompt":"total          31.70\n\n###\n\n","completion":" \\bTOTAL\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"grand total rm54.90\n\n###\n\n","completion":" (?:Split|Grand)\\s*Total\\s*.+?([\\d,\\sS]*[\\.\\:]*\\s*\\d{1,2}\\s*\\d*)\n"}
+{"prompt":"total walkin    6.00\n\n###\n\n","completion":" TOTAL\\s*WALKIN\\s+([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total : 18.10\n\n###\n\n","completion":" TOTAL\\s\\:\\s([\\d,]*\\.\\d{2})\n"}
+{"prompt":"grand total          33.50\n\n###\n\n","completion":" Grand\\s+Total\\s+([\\d,]*\\.\\d{2})\n"}
+{"prompt":"amount            $20.90\n\n###\n\n","completion":" Amount\\s*\\$\\s*\\b([-\\d,]+\\.\\d{1,2})\n"}
+{"prompt":"grand total 4173.48\n\n###\n\n","completion":" Grand\\s*Total\\s([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total rm 30.00\n\n###\n\n","completion":" TOTAL\\sRM\\s([\\d,]+\\.\\d+)\n"}
+{"prompt":"  total       $44.00\n\n###\n\n","completion":" \\s+TOTAL\\s*\\$\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total amount                rm  -93.00\n\n###\n\n","completion":" (?:Net|Total)\\s*Amount\\s*RM\\s*([\\-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total:                      22.80  \n\n###\n\n","completion":" (?:aftr\\s*rounding|Total\\s*:)\\s*([\\d,]+\\.\\d{2}-?)\n"}
+{"prompt":"grand total sgd165.25\n\n###\n\n","completion":" Grand\\s*Total\\s*\\$*\\D*([\\d,\\s]*[\\.\\:]*\\s*\\d{1,2}\\s*\\d*)\n"}
+{"prompt":"total      8.90\n\n###\n\n","completion":" TOTAL\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"net total              11.40\n\n###\n\n","completion":" Net\\s+Total\\s+([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total sales inclusive gst@ 7.00% 56.00\n\n###\n\n","completion":" (?:TOTAL|Total)(?:\\s*\\:\\s*\\~*[\\s\\‚Äú]*|\\s*Sales\\s*Inclusive\\s*GST.+\\%\\s*)(\\w*[\\d,-]*[\\.\\:]*\\d{1,2})\n"}
+{"prompt":"sale total (includes $1.64 gst)         $25.09\n\n###\n\n","completion":" (?:Sale\\s*total.+?\\)\\s*|Rounded\\s*To\\s*|Balance\\s*Due\\s*)(\\-?(?:\\$)[\\d,]+\\.\\d{2})\n"}
+{"prompt":"net amount                  $168.00\n\n###\n\n","completion":" (?:Refund|Net)\\s*Amount\\s*\\(?(\\-?\\$[\\d,]*\\.\\d{2})\n"}
+{"prompt":"total       63.44\n\n###\n\n","completion":" TOTAL\\s*([\\d+,-]*\\.\\d{2})\n"}
+{"prompt":"net total        12.70\n\n###\n\n","completion":" Net\\s+Total\\s+(\\d+\\.\\d{1,2})\n"}
+{"prompt":"total                            rm28.90\n\n###\n\n","completion":" TOTAL\\s+RM([\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"payable $190.91\n\n###\n\n","completion":" Payable\\s*\\$?\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total        $22.72\n\n###\n\n","completion":" \\bTOTAL\\s*\\$\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total: 25.90\n\n###\n\n","completion":" \\bTotal:\\s*([\\d,]*[\\.\\,]?[\\d]{2})\\b\n"}
+{"prompt":"total         60.00\n\n###\n\n","completion":" TOTAL\\s*([\\-\\d,]+\\.\\d{1,2})\n"}
+{"prompt":"total 7.20\n\n###\n\n","completion":" \\bTotal:?\\s*(?:SGD)?\\s*([-\\d,]+\\.\\d{1,2})\n"}
+{"prompt":"total        rm16.00\n\n###\n\n","completion":" \\bTOTAL\\s+Rm([\\d,]+\\.\\d{2})\n"}
+{"prompt":"amount due:                     101.50\n\n###\n\n","completion":" Amount\\s*Due\\:\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total:  92.50\n\n###\n\n","completion":" \\bTotal\\:\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total              16.90\n\n###\n\n","completion":" \\bTOTAL\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total receipts:                1170.40\n\n###\n\n","completion":" Total\\s*Receipts:\\s+([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total rm59.90\n\n###\n\n","completion":" \\bTOTAL\\s+RM(\\d+\\.\\d{2})\\b\n"}
+{"prompt":"total 12.00\n\n###\n\n","completion":" TOTAL\\s*([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total 35.50\n\n###\n\n","completion":" Total\\s+([\\d,]*[\\.\\,]\\d{2})\n"}
+{"prompt":"total       $35.60\n\n###\n\n","completion":" \\bTOTAL\\s+\\$([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total:                       5.50\n\n###\n\n","completion":" (?:aftr\\s*rounding|Total\\s*:)\\s*([\\d,]+\\.\\d{2}-?)\n"}
+{"prompt":"amount : 5.10\n\n###\n\n","completion":" Amount.+\\s([-\\d,]+\\.\\d{2})\n"}
+{"prompt":"total s$ : 199. 00\n\n###\n\n","completion":" \\nTOTAL\\s*S\\$\\s*:\\s*([-\\d,]+\\.\\s*\\d{2})\n"}
+{"prompt":"total dinein  43.00\n\n###\n\n","completion":" TOTAL\\D+([\\d,]*\\.*\\d+)\n"}
+{"prompt":"total $        3.00\n\n###\n\n","completion":" Total\\s*\\$\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"grand total rms.00\n\n###\n\n","completion":" (?:Split|Grand)\\s*Total\\s*.+?([\\d,\\sOS]*[\\.\\:]*\\s*\\d{1,2}\\s*\\d*)\n"}
+{"prompt":"total                    2,163.00\n\n###\n\n","completion":" \\bTOTAL\\s*([\\d,]+\\.\\d{1,2})\\b\n"}
+{"prompt":"total       $38.50\n\n###\n\n","completion":" \\bTOTAL\\s+\\$?([\\d,]+\\.\\d{1,2})\\b\n"}
+{"prompt":"total take away     0.00\n\n###\n\n","completion":" \\bTOTAL\\s*(?:DINE\\s*IN|TAKE\\s*AWAY|GRABFD|FDPANDA|DLVROO|ESTORE)?\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total: $13.00\n\n###\n\n","completion":" ^TOTAL\\s*\\:\\s*\\$\\s*([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total : 53.80\n\n###\n\n","completion":" ^(?:Total\\s?:)\\s+(-?[\\d,]+.\\d{2})$\n"}
+{"prompt":"total: $12.00\n\n###\n\n","completion":" \\bTotal\\:\\s+\\$([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total       $49.33\n\n###\n\n","completion":" \\b(?:Tip|TOTAL)\\s*\\$([\\d,]*\\.\\d{2})\n"}
+{"prompt":"grand total 26.68\n\n###\n\n","completion":" Grand[_\\s]+Total[_\\s]+([-\\d,@]*\\.?\\d{1,3})\n"}
+{"prompt":"14:30 total 91.35\n\n###\n\n","completion":" \\d{1,2}\\s*:\\d{1,2}.+\\s*TOTAL\\s*([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total       17.30\n\n###\n\n","completion":" TOTAL\\s*([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total s$ : 78. ac\n\n###\n\n","completion":" (?<!Sub-)TOTAL\\sS\\$\\W+([-\\d\\w,]+\\.*\\s*(?:[oO\\d]{1}|AC|A))\n"}
+{"prompt":"total      4.10\n\n###\n\n","completion":" \\bTOTAL\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total amount incl. gst 6%: 139.90\n\n###\n\n","completion":" Total\\s*Amount.+\\:\\s*([\\-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total:                       2.80\n\n###\n\n","completion":" (?:aftr\\s*rounding|Total\\s*:)\\s*([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total:        333.00\n\n###\n\n","completion":" TOTAL\\:\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"sub total          44.50\n\n###\n\n","completion":" Sub\\sTotal\\s+([-\\d,]+\\.\\d{2})\n"}
+{"prompt":"total sgd 4.28\n\n###\n\n","completion":" ^Total.+?\\b([-\\d,]+\\.\\d{1,2}|\\D+)$\n"}
+{"prompt":"total      139.00\n\n###\n\n","completion":" (?:Total|Rounding)\\s*(-?[\\d,]*\\.\\d{2})\n"}
+{"prompt":"amount payable $ 215.90\n\n###\n\n","completion":" Amount\\s*Payable\\s*\\$\\s*([\\d,-]*[\\, \\.]*\\d{1,2})\n"}
+{"prompt":"total：7.60\n\n###\n\n","completion":" \\bTotal\\D*[\\s\\:Ôºö]*([\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"total:         3.90\n\n###\n\n","completion":" Total:\\s*([\\d,]+\\.\\d{2})\n"}
+{"prompt":"receipt total                    179.55\n\n###\n\n","completion":" (?:Receipt\\s*Total|Credit\\s*Note\\s*Total)\\s*([\\-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total 7.90\n\n###\n\n","completion":" \\nTotal\\s*([\\d,]*[\\.\\,]\\d{2})\n"}
+{"prompt":"amount            $12.00\n\n###\n\n","completion":" Amount\\s*\\$\\s*([-\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"total      $63.50\n\n###\n\n","completion":" TOTAL\\s*\\$\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total       $63.56\n\n###\n\n","completion":" \\sTOTAL\\s*\\$([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total      $117.35\n\n###\n\n","completion":" \\bTOTAL\\s*\\$([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total:        140.25\n\n###\n\n","completion":" TOTAL:\\s+(\\d*,?\\d+\\.\\d{2})\n"}
+{"prompt":"total rm39.90\n\n###\n\n","completion":" \\bTOTAL\\s+RM([\\d,]+\\.[\\d]{2})\\b\n"}
+{"prompt":"total               23.05\n\n###\n\n","completion":" \\bTOTAL.+\\s+([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total           6.80\n\n###\n\n","completion":" \\bTOTAL\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"amount due    387.00\n\n###\n\n","completion":" Amount\\s*Due\\s*([-,\\d]*\\.\\d{2})\n"}
+{"prompt":"total:                       9.00\n\n###\n\n","completion":" (?:aftr\\s*rounding|Total\\s*:)\\s*([\\d,]+\\.\\d{2})\n"}
+{"prompt":"     total s$                      99.90\n\n###\n\n","completion":" ^\\s*TOTAL\\s*S\\$\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total with gst                                15.50\n\n###\n\n","completion":" Total\\s*with\\s*GST\\s*([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"grand total: $127.00\n\n###\n\n","completion":" Grand\\s*Total\\s*\\:\\s*\\$([\\d,]*\\.\\d{2})\n"}
+{"prompt":"rounded amount:                     0.00\n\n###\n\n","completion":" (?:Amount\\s*Due|Rounded Amount):\\s*([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total due 8.15\n\n###\n\n","completion":" Total\\s*Due\\s*([\\d,]+\\.\\d{2})\n"}
+{"prompt":"amount p734.80\n\n###\n\n","completion":" \\bAMOUNT\\s+[\\a-zA-Z]?(\\-?[\\d,]+\\.\\d{1,2})\\b\n"}
+{"prompt":"grand total                $7.90\n\n###\n\n","completion":" Grand\\s*Total\\s*\\$\\s*([,\\d-]*\\.\\d{1,2})\n"}
+{"prompt":"total     699.91\n\n###\n\n","completion":" ^TOTAL\\s*\\-?([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total incl. gst       0.00\n\n###\n\n","completion":" Total\\s*Incl\\.\\s*GST\\s*([\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"total              :     33.20\n\n###\n\n","completion":" \\bTOTAL\\s*:\\s*(-?\\d*,?\\d*\\.\\d{2})\n"}
+{"prompt":"total rm92.00\n\n###\n\n","completion":" \\nTOTAL\\s*RM([\\d,]*\\.\\d{2})\n"}
+{"prompt":"payable $20.97\n\n###\n\n","completion":" Payable\\s*\\$?\\s*([-\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"total s$ : 10. 00\n\n###\n\n","completion":" ^TOTAL\\s*[S$]{0,2}.+?([-‚Äî]?[\\d,]*[.,]\\s*\\d{2})\n"}
+{"prompt":"total 37.70\n\n###\n\n","completion":" Total\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total myr 146.40\n\n###\n\n","completion":" TOTAL\\s*MYR\\s*([\\d,]*(?:\\.|\\,)\\d{2})\n"}
+{"prompt":"total 5$$16.80\n\n###\n\n","completion":" TOTAL.+\\$\\s*([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total                              26.48\n\n###\n\n","completion":" \\d+\\.\\d{2}\\nTotal\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total      rm69.30\n\n###\n\n","completion":" \\bTOTAL\\s+RM([\\d,]+\\.[\\d]{2})\\b\n"}
+{"prompt":"total $                         40.00\n\n###\n\n","completion":" (?:Rounding|Total)\\s*\\$*\\s*([\\-\\d,]+\\.\\d{2})\n"}
+{"prompt":"net total              11.40\n\n###\n\n","completion":" \\bNet\\s+Total\\s+([\\d,]*\\.\\d{2})\n"}
+{"prompt":"grand total: $38.50\n\n###\n\n","completion":" Grand\\s*Total\\s*:\\s*\\$([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total due                      13,574.00\n\n###\n\n","completion":" \\bTOTAL DUE.+?([\\d,]+\\.\\d{1,2})\\b\n"}
+{"prompt":"total:                          2,156.00\n\n###\n\n","completion":" TOTAL\\:\\s*([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total after rounding rm33.70\n\n###\n\n","completion":" Total\\s*After\\s*Rounding\\s*RM\\s*([\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"total after rounding rm16.85\n\n###\n\n","completion":" Total\\s*after\\s*Rounding\\s*RM\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total              :    109.10\n\n###\n\n","completion":" (?<!\\Sub-)TOTAL\\s*\\:\\s*([\\-\\d,]*\\.\\d{2})\n"}
+{"prompt":"net total : 5,295.00\n\n###\n\n","completion":" NET\\s*TOTAL\\s*\\:?.*?([-,\\d]*\\.?\\d{2})\n"}
+{"prompt":"receipt total                  1,264.45\n\n###\n\n","completion":" (?:Receipt\\s*Total|Credit\\s*Note\\s*Total)\\s*([\\-\\d,]*\\.\\d{2})\n"}
+{"prompt":"amount due                          $22.00\n\n###\n\n","completion":" (?:Amount\\s*Due|Roundoff)\\s+\\$*([\\(\\s\\d,]*\\.?\\d{2})\n"}
+{"prompt":"total(sgd)incl.gst                   86.67\n\n###\n\n","completion":" Total\\(SGD\\).+?\\s([\\-\\d,]*\\.\\d{2})-?\n"}
+{"prompt":"total: 12.00\n\n###\n\n","completion":" \\bTOTAL\\:\\s(\\d+\\.\\d{2})\\b\n"}
+{"prompt":"net total                               11.75\n\n###\n\n","completion":" NET\\s+TOTAL\\s+(\\d+\\.\\d{2})\n"}
+{"prompt":"total 12.40\n\n###\n\n","completion":" (?:Total|Adjustment)\\s+(\\-*[\\d,.]+)\n"}
+{"prompt":"total       $41.90\n\n###\n\n","completion":" \\bTOTAL\\s*\\$([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total:         14.90\n\n###\n\n","completion":" \\nTOTAL:\\s+([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total 5.90\n\n###\n\n","completion":" \\nTotal\\s*([\\d,]*[\\.\\,]\\d{1,2})\n"}
+{"prompt":"amount due    212.00\n\n###\n\n","completion":" Amount\\s*Due\\s*([-,\\d]*\\.\\d{2})\n"}
+{"prompt":"amt payable :sgd      36.10\n\n###\n\n","completion":" Amt\\s*Payable\\s*:\\s*SGD\\s*([\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"total       $57.44\n\n###\n\n","completion":" \\bTOTAL\\s*\\$([\\d,]*\\.\\d{2})\n"}
+{"prompt":"amount $7.90\n\n###\n\n","completion":" Amount\\s*\\$([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total 17.80\n\n###\n\n","completion":" \\bTOTAL\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total       $39.47\n\n###\n\n","completion":" \\bTOTAL\\s*\\$\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total:                      13.30\n\n###\n\n","completion":" (?:aftr\\s*rounding|Total\\s*:)\\s*([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total: 0.00\n\n###\n\n","completion":" \\nTotal\\:\\s*([\\d,]*(?:\\.|\\,)\\d{2})\n"}
+{"prompt":"sub total                         $56.00\n\n###\n\n","completion":" (?:SUB\\s)?TOTAL\\s*\\$([\\d,]+\\.\\d{2})\n"}
+{"prompt":"receipt total: $252.63\n\n###\n\n","completion":" Receipt\\s*Total\\s*:\\s*\\$([\\-\\d,]+\\.\\d{2})\n"}
+{"prompt":"total $42.00\n\n###\n\n","completion":" TOTAL\\D+([\\d,]*\\.\\d{2})\n"}
+{"prompt":"grand total: $52.40\n\n###\n\n","completion":" Grand\\s*Total\\:\\s*\\$([\\d,]*\\.\\d{2})\n"}
+{"prompt":"13:43                            total      2.50\n\n###\n\n","completion":" \\:\\d+\\s*TOTAL\\s*([-\\d,]+\\.\\d{2})\n"}
+{"prompt":"total 18.60\n\n###\n\n","completion":" Total\\s*([-\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"grand total rm23.60\n\n###\n\n","completion":" Grand\\s+Total\\s+\\D+([\\d,]*\\.*\\d{2})\n"}
+{"prompt":"total       13.70\n\n###\n\n","completion":" (?:TOTAL\\s*(?:DELIVERY|DINE\\s*.+?)?|TIPS)\\s*([\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"total                               125.82\n\n###\n\n","completion":" (?:\\bTotal|Rounding).+?([-\\d,]+\\.\\d{1,2})\\b\n"}
+{"prompt":"total:         25.00\n\n###\n\n","completion":" TOTAL:\\s+[\\-]?([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total myr 40.70\n\n###\n\n","completion":" TOTAL\\s*MYR\\s*(\\d+\\.\\d{2})\n"}
+{"prompt":"totalamount $135.15\n\n###\n\n","completion":" Total\\s*Amount\\W+([-\\d,]+\\.\\d{1,2})\n"}
+{"prompt":"grand total : rm 27.50\n\n###\n\n","completion":" (?:NET\\s*TOTAL|Grand\\s+Total)\\s*[\\>\\:]*\\s*\\w*\\s*\\$*([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total 20.00\n\n###\n\n","completion":" TOTAL\\s*([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"amt 2,166.00\n\n###\n\n","completion":" Am[t]*\\s*\\D*\\s*([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total rm   65.50\n\n###\n\n","completion":" \\bTOTAL\\s*RM\\s+([\\d,]*\\.\\d{2})\n"}
+{"prompt":"amount $188.50\n\n###\n\n","completion":" Amount\\s*\\$([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total                                    $11.00\n\n###\n\n","completion":" ^TOTAL\\s*\\$([-\\d,]+\\.\\d{2})\n"}
+{"prompt":"     total       $18.80\n\n###\n\n","completion":" ^\\s*TOTAL\\s*\\$([-\\d,]+\\.\\d{2})\n"}
+{"prompt":"total       $22.00\n\n###\n\n","completion":" \\bTOTAL\\s+\\$([\\d+\\,]*\\d+\\.\\d{2})\n"}
+{"prompt":"total                                 $39.80\n\n###\n\n","completion":" \\nTotal\\s*\\$\\s*([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total     633.00\n\n###\n\n","completion":" \\bTotal\\s*\\(?([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total      10.00\n\n###\n\n","completion":" \\bTOTAL\\s*([\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"total sales rm 4.00\n\n###\n\n","completion":" (?:Total\\s*Sales|Rounding Adjustment\\s*\\:)\\s*RM\\s*([\\d,]*\\s*\\.\\s*\\d{2})\n"}
+{"prompt":"total          80.04\n\n###\n\n","completion":" Total\\s*([\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"total                                15.76\n\n###\n\n","completion":" (?:^Total|Rounding)\\s*([\\d,-]*\\.\\d{1,2})\n"}
+{"prompt":"grand total          29.85\n\n###\n\n","completion":" Grand\\s*Total\\s*([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total            29.50\n\n###\n\n","completion":" \\bTOTAL\\s+([\\d|,]*\\.\\d{2})\n"}
+{"prompt":"total:                      17.50\n\n###\n\n","completion":" (?:aftr\\s*rounding|Total\\s*:)\\s*([\\d,]+\\.\\d{2}-?)\n"}
+{"prompt":"total                            190.00\n\n###\n\n","completion":" ^TOTAL\\s*-([\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"grand total rm12.30\n\n###\n\n","completion":" (?:Split|Grand)\\s*Total\\s*.+?([\\d,\\s]*[\\.\\:]*\\s*\\d{1,2}\\s*\\d*)\n"}
+{"prompt":"total $6.00\n\n###\n\n","completion":" \\nTOTAL\\s+\\$([\\d+\\,]*\\d+\\.\\d{2})\n"}
+{"prompt":"total paid: 38.00\n\n###\n\n","completion":" \\bTotal\\s*(?:\\(SGD\\)|Paid)\\s*\\:?\\s*([\\d,]*[\\.\\,]\\d{1,2})\\b\n"}
+{"prompt":"15:07                    total      8.50\n\n###\n\n","completion":" \\d+\\:\\d+\\s+TOTAL\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total price payable include 7% gst                 16.11\n\n###\n\n","completion":" Total Price.+\\s+(\\-?[\\d,]+\\.\\d{2})\n"}
+{"prompt":"total: $11.50\n\n###\n\n","completion":" \\bTOTAL\\s*:\\s*\\$\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"amount payable                           $ 99.90\n\n###\n\n","completion":" Amount\\s*Payable\\W+([-\\d,]+\\.\\d{1,2})\n"}
+{"prompt":"total     672.00\n\n###\n\n","completion":" \\bTOTAL\\s*([\\d,]+\\.\\d{1,2})\n"}
+{"prompt":"total due       115.25\n\n###\n\n","completion":" Total\\sDue\\s*([-\\d,]+\\.\\d{2})\n"}
+{"prompt":"total                                 $28.70\n\n###\n\n","completion":" \\nTotal\\s*\\$\\s*([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total    205.00\n\n###\n\n","completion":" TOTAL\\s*([\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"total sales (+) 259.50\n\n###\n\n","completion":" Total\\s*Sales\\D+([\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"total rm67.00\n\n###\n\n","completion":" \\nTOTAL\\s+RM([\\d,]*\\.\\d{2})\n"}
+{"prompt":"net amount due:                  35.20\n\n###\n\n","completion":" Net\\s*Amount\\s*Due.+\\s([\\d,-]+\\.\\d{2})\n"}
+{"prompt":"total rm168.00\n\n###\n\n","completion":" \\bTOTAL\\s*RM([\\d,]*\\.[\\d]{2})\\b\n"}
+{"prompt":"amount $12.20\n\n###\n\n","completion":" Amount\\s*\\$([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total      67.92\n\n###\n\n","completion":" (?:\\bAmount|\\bTotal|\\bRounding)\\s*([\\-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total rm26.50\n\n###\n\n","completion":" \\bTOTAL\\s+[RM]*(\\D*[\\d,]*\\.*\\d{2})\n"}
+{"prompt":"total                                24.50\n\n###\n\n","completion":" Total\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total:     5.30\n\n###\n\n","completion":" \\bTotal\\:\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total               7.80\n\n###\n\n","completion":" (?:\\bTTL|\\bTOTAL)\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total      3.40\n\n###\n\n","completion":" TOTAL\\D+([\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"total:        180.00\n\n###\n\n","completion":" ^TOTAL:\\s+(\\d*,?\\d+\\.\\d{2})\n"}
+{"prompt":"total:                       6.30\n\n###\n\n","completion":" (?:aftr\\s*rounding|Total\\s*:)\\s*([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total sgd 16.48\n\n###\n\n","completion":" \\nTotal.+?\\s*([\\d,]+\\.?\\d{1,2}|\\D+)$\n"}
+{"prompt":"grand total $32.90\n\n###\n\n","completion":" GRAND\\s?TOTAL\\s*.+\\$([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total      $153.01\n\n###\n\n","completion":" \\bTOTAL\\s*\\$([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total $14.00\n\n###\n\n","completion":" \\nTOTAL \\$([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total        $37.20\n\n###\n\n","completion":" \\s+TOTAL\\s+\\$([\\d+\\,]*\\d+.\\d{2})\n"}
+{"prompt":"subtotal           $2.20\n\n###\n\n","completion":" -\\s*SUBTOTAL\\s*\\$\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total $$7.00\n\n###\n\n","completion":" \\bTotal\\s*.+?\\$([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total due: $ 199.00\n\n###\n\n","completion":" Total\\s*Due\\s*:\\s*\\$\\s*([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total sale: 3 item(s) $89.02\n\n###\n\n","completion":" Total\\s*Sale\\s*:\\s*.+\\$([-\\d,]*[,.]?\\d{2})\n"}
+{"prompt":"total         35.60\n\n###\n\n","completion":" \\bTOTAL\\s*([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total       $29.40\n\n###\n\n","completion":" \\bTOTAL\\s*\\$([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total:                       3.00\n\n###\n\n","completion":" (?:aftr\\s*rounding|Total\\s*:)\\s*([\\d,]+\\.\\d{2})\n"}
+{"prompt":"grand total         124.76\n\n###\n\n","completion":" \\bGrand\\s*Total\\s*(-?[\\d,]+\\.\\d{1,2})\\b\n"}
+{"prompt":"total              220.50\n\n###\n\n","completion":" Total\\s+([\\d,]+\\.\\d{2})\n"}
+{"prompt":"amount            $12.40\n\n###\n\n","completion":" Amount\\s*\\$([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total sales 8.90\n\n###\n\n","completion":" Total Sales ([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total rmo.00\n\n###\n\n","completion":" \\b(?:Rounding|Total)\\s*([\\w\\d,-]*\\.\\d{1,2})\n"}
+{"prompt":"total:                      12.20\n\n###\n\n","completion":" (?:aftr\\s*rounding|Total\\s*:)\\s*([\\d,]+\\.\\d{2}-?)\n"}
+{"prompt":"total 7.50\n\n###\n\n","completion":" TOTAL\\W+([\\d,]*\\.\\d{2})\\s+\n"}
+{"prompt":"total >rm 37.00\n\n###\n\n","completion":" Total\\D+([\\d,]*\\.\\d{2})\n"}
+{"prompt":"amount due                        $ 139.71\n\n###\n\n","completion":" Amount\\s*Due\\s+\\$\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total sales {+) 649.00\n\n###\n\n","completion":" Total\\s*Sales\\D+([\\d,]*\\.\\d{2})\n"}
+{"prompt":"16:31 total 39.45\n\n###\n\n","completion":" \\d{1,2}:?\\d{1,2}\\s*TOTAL\\s*([-\\d,]*\\.?\\d{1,2})\n"}
+{"prompt":"total:  89.00\n\n###\n\n","completion":" \\bTotal:\\s*([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total          $38.05\n\n###\n\n","completion":" \\bTotal\\s*\\$([\\d,]+\\.\\d{2})\n"}
+{"prompt":"grand total: $40.00\n\n###\n\n","completion":" \\bGrand\\s*Total:\\s+\\$([\\d,]+\\.[\\d]{2})\\b\n"}
+{"prompt":"total 0.10\n\n###\n\n","completion":" \\bTotal\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"payable $233.90\n\n###\n\n","completion":" Payable\\s*\\$?\\s*([-\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"total 206.10\n\n###\n\n","completion":" ^TOTAL\\s*([-\\d,]*[.-]\\d{2})\n"}
+{"prompt":"total after rounding rm29.70\n\n###\n\n","completion":" Total\\s*after\\s*Rounding\\s*RM\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total        rm 46.20\n\n###\n\n","completion":" TOTAL\\s*[RM]*\\s*([\\-\\d]*\\.\\d{2})\n"}
+{"prompt":"amount $18.32\n\n###\n\n","completion":" Amount\\s*\\$([\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"total with gst                                 5.00\n\n###\n\n","completion":" Total\\s*with\\s*GST\\s*([\\-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total: $250.00\n\n###\n\n","completion":" Total\\s*:\\s*\\(?\\$([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total:     4.80\n\n###\n\n","completion":" \\bTotal\\:\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total :s$  129.80\n\n###\n\n","completion":" \\bTotal\\s*\\:S*\\$*\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"due (includes $14.14 gst)      $216.10\n\n###\n\n","completion":" (?:Balance\\sDue|Due\\s\\(Includes\\s\\$\\d+\\.\\d{2}\\sGST\\))\\s*\\$([-\\d,]+\\.\\d{2})\n"}
+{"prompt":"total $33.00\n\n###\n\n","completion":" ^TOTAL\\s*\\s*\\$([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total (incl tax) 19.00\n\n###\n\n","completion":" Total\\s*\\(.+[\\)\\}]\\s*([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total after rounding rm216.25\n\n###\n\n","completion":" Total\\s*after\\s*Rounding\\s*RM\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total rm70.60\n\n###\n\n","completion":" \\bTOTAL\\s[a-zA-Z]+([\\d.]*\\.*\\d+)\n"}
+{"prompt":"due (includes $9.81 gst)      $149.93\n\n###\n\n","completion":" (?:Rounded\\s*To|Due.+)\\s*\\$([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total        $4.90\n\n###\n\n","completion":" \\sTOTAL\\s*\\$([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total        3           4.20\n\n###\n\n","completion":" Total\\s+(?:After\\s*rounding|\\d+)\\s+([\\-\\d,]+\\.[\\d]{2})\n"}
+{"prompt":"total:                             $667.96\n\n###\n\n","completion":" ^Total\\s*:\\s*\\$([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total 23.40\n\n###\n\n","completion":" \\bTotal\\s*=?\\s*([-\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"total amount $99.75\n\n###\n\n","completion":" Total\\s+Amount[\\D+]\\D+(\\d+\\.\\d{2})\n"}
+{"prompt":"total:   21.00\n\n###\n\n","completion":" Total\\s*:\\s*([\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"total rm163.40\n\n###\n\n","completion":" TOTAL\\s+RM([\\d+\\,]*\\d+\\.\\d{2})\n"}
+{"prompt":"total                45.00\n\n###\n\n","completion":" \\bTotal\\s+([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total rm135.30\n\n###\n\n","completion":" \\bTOTAL\\s*RMO?\\s*([\\d,]+\\.\\d{2})\n"}
+{"prompt":"  total       $16.80\n\n###\n\n","completion":" \\s+TOTAL\\s*\\$([\\d,]*\\.\\d{2})\n"}
+{"prompt":":48 total 2.00\n\n###\n\n","completion":" \\:\\s*\\d{1,2}\\s*TOTAL\\s*([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total                                $148.45\n\n###\n\n","completion":" \\bTotal\\s*-?\\$?([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total transaction value     $19.80\n\n###\n\n","completion":" Total\\s*Transaction\\s*Value\\s*\\$([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total payabl rm 4.90\n\n###\n\n","completion":" Total\\s*Payabl\\s*RM\\s*([-\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"total rm26.25\n\n###\n\n","completion":" \\bTOTAL\\s+RM([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total 84.01\n\n###\n\n","completion":" \\b(?:Total |Cash roundin)((?:g -?)?\\d+.\\d{2})\n"}
+{"prompt":"payable                                    $2.20\n\n###\n\n","completion":" \\bPayable\\s*\\$(\\d+\\.\\d{2})\n"}
+{"prompt":"total rm42.00\n\n###\n\n","completion":" \\bTOTAL RM([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total rm228.65\n\n###\n\n","completion":" \\bTOTAL\\s+RM([\\d,]+\\.[\\d]{2})\\b\n"}
+{"prompt":"total $71.50\n\n###\n\n","completion":" \\bTOTAL\\s*\\$([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total:     4.10\n\n###\n\n","completion":" (?:Total\\:|TOTAL)\\s*([\\d,]*\\.*\\d{1,2})\n"}
+{"prompt":"total      $772.11\n\n###\n\n","completion":" \\b(?:Tip|TOTAL)\\s*\\$([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total                        $196.20\n\n###\n\n","completion":" TOTAL\\s*\\$?([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total      100.16\n\n###\n\n","completion":" \\bTOTAL\\s+([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total       $41.20\n\n###\n\n","completion":" \\bTOTAL\\s*\\$([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total            28.70\n\n###\n\n","completion":" \\bTOTAL\\s+(\\d+\\.\\d{2})\n"}
+{"prompt":"amount actually     138.82\n\n###\n\n","completion":" Amount\\s*actually\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total                      619.30\n\n###\n\n","completion":" \\bTOTAL\\s*([\\d,]+\\.\\d{1,2})\\b\n"}
+{"prompt":"total:\\s*([\\-\\d,]+\\.\\d{1,2})\n\n###\n\n","completion":" Total:\\s*([\\-\\d,]+\\.\\d{1,2})\n"}
+{"prompt":"amount payable 3 50.70\n\n###\n\n","completion":" Am[op]unt\\s*Payable\\s*[\\$3S5]\\s*([\\d,-]*\\.?\\d{1,2})\n"}
+{"prompt":"total:                       6.60\n\n###\n\n","completion":" (?:aftr\\s*rounding|Total\\s*:)\\s*([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total p 19.24\n\n###\n\n","completion":" ^(?:NET\\s*SALES|TOTAL)\\s*\\D*\\s*([\\d,]*\\.*\\d{2})\n"}
+{"prompt":"total          $57.65\n\n###\n\n","completion":" Total\\s*\\$([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total sgd 170.10\n\n###\n\n","completion":" Total\\s*SGD\\s*([\\-\\d,]*(\\.|\\,)\\d{2})\n"}
+{"prompt":"sub total                         $10.00\n\n###\n\n","completion":" (?:Total|SUB\\s+TOTAL)\\D+([\\d,]*\\.\\d{2})\n"}
+{"prompt":"amount due                     $ 33.20\n\n###\n\n","completion":" Amount\\s*Due\\s+\\$*\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"net total\\s+([\\d,]+\\.\\d{2})\n\n###\n\n","completion":" NET TOTAL\\s+([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total:                              $37.40\n\n###\n\n","completion":" \\n(?:Receipt )?Total\\:\\s+\\$([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total: 99.30\n\n###\n\n","completion":" \\bTotal: ([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total      178.20\n\n###\n\n","completion":" Total\\s*([\\d,]*\\.\\d{1,2})\n"}
+{"prompt":"total amount: 1.20\n\n###\n\n","completion":" ^(?:Nett\\s*Total|Total\\s*Amount)\\:*\\s+([\\d,]*\\.\\d{2})\n"}
+{"prompt":"grand total $gd183.15\n\n###\n\n","completion":" (?:Split|Grand)\\s*Total\\s*.+D([\\d,\\s]*[\\.\\:]*\\s*\\d{1,2}\\s*\\d*)\n"}
+{"prompt":"total         $4.70\n\n###\n\n","completion":" \\bTOTAL\\D+([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total sgd                      119.00\n\n###\n\n","completion":" Total\\s*SGD\\s*([-\\d,]+\\.\\d{2})\n"}
+{"prompt":"ttl amount 3 $22. 10\n\n###\n\n","completion":" (?:TTL\\s*Amount\\s*\\-?\\d+|Round\\s*off)\\s*\\$?(-?—?[\\d,]+\\.\\s*\\d{2})\n"}
+{"prompt":"amount 156.00\n\n###\n\n","completion":" (?:AMOUNT|Tips)\\s+([-\\d,]+\\.\\d{2})\n"}
+{"prompt":"total payable :     38.40\n\n###\n\n","completion":" (?:Total\\s*Payable|TOTAL)\\s*\\:\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"subtotal                             21.80\n\n###\n\n","completion":" SubTotal\\s+(\\d+.\\d{2})\n"}
+{"prompt":"total: 129.00\n\n###\n\n","completion":" Total\\:\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total               18.75\n\n###\n\n","completion":" \\bTOTAL\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"amount due                         $418.00\n\n###\n\n","completion":" Amount\\s*Due\\s*\\$([-\\d,]*\\.\\d{2})\n"}
+{"prompt":"total       $76.98\n\n###\n\n","completion":" \\bTOTAL\\s*\\$([-\\d,]+\\.\\d{2})\n"}
+{"prompt":"total amt payable : 59.00\n\n###\n\n","completion":" Total\\s+Amt\\s+\\w+\\s+\\:\\s+([\\d+\\,]*\\d+\\.\\d{2})\n"}
+{"prompt":"total rm17.90\n\n###\n\n","completion":" TOTAL\\s+RM([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total: $32.60\n\n###\n\n","completion":" \\bTotal:\\s*\\$([\\d-]*\\.\\d{2})\n"}
+{"prompt":"total:                       8.10\n\n###\n\n","completion":" (?:aftr\\s*rounding|Total\\s*:)\\s*([\\d,]+\\.\\d{2})\n"}
+{"prompt":"total: 9.90\n\n###\n\n","completion":" Total\\:\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total $30.70\n\n###\n\n","completion":" \\b(?:TOTAL|Total)\\s+\\$([\\d,]*\\.\\d{2})\n"}
+{"prompt":"    total:         17.00\n\n###\n\n","completion":" \\s+TOTAL\\s*\\:\\s*([\\d,]*\\.\\d{2})\n"}
+{"prompt":"total:                       3.30\n\n###\n\n","completion":" (?:aftr\\s*rounding|Total\\s*:)\\s*([\\d,]+\\.\\d{2})\n"}

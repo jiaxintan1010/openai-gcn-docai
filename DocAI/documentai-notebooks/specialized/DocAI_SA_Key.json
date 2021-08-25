@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "crucial-haiku-321308",
+  "private_key_id": "daa2cbe430f068bb63c11b2ff18e54a73d518bea",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC+6YVa5PiMxcx/\nW8hMlFuuEfRAkFFl3tgDdtYwlPBrRLAd7mj9Kyv2xhNVCdxkAWJ+EKr1Nk7vbtrP\nrUserKVJDzE3QiXoWRwD2WxoH6Pb3poI65CTrtZ5U2LaMDaLnEkTNAqEEh1aZJLa\nT2Y4NxJ9Bd5834JwP2LFdFRzAc9+p/ueLMSZ+WJ1EYb+7B8Ar0I+DI+E6s1et+hc\nXL+Xadzf3SUNUGbNRx0zduj7tZXJmMNgF3ktBzvZv16E+y8Ry86EkBCtvZrnYzIe\n7ef9qYsWYidqMkL1nVBYMBSuWjcgtb8BjVB8wGUcAva2RzmZrbFsgJ+uFJYiK8pF\nmE7Mt4HVAgMBAAECggEAEiPLKlDn6V+HNLGKYMH9MhcXovJzh+vtxFDmCi8X5wFb\ngJ4qHXNQL2SW6qiDGrRJx2bn1fpA853DYbwUD3th2x7IuawdDcY4+lUOG8vbb6VN\n9CIGsAzXtfOwrvQQArtcJo+pau7zstnFw5BYZJs3zc3uDxk64iJ+5pPmmeTmpW1a\nEWiehpcoMXnN1jRF1+ZJsAfd35jlfRgQmTtd959Ib3r+x0EQQVKe/0flaM/wkwg3\nKDqqug2hNzJtKqukX9pokECIEWADTo2CYAGwplCdIiTKuIUA6mqlrq4EOuAHyL8V\nrxynV6bkfDoGfw+KFMcGa43VUKjYRApz3w7+4ocvMwKBgQDiKqI60bc2UHTU5tfh\nWq2Yjehpv0Dn3IHz4yeie8MrXnt2y2We09bf1oOtkBNtK/WyD0LGNISX+Yzt89lL\nl4ke1QariicBN4IDBJin0N5LWp2S7zNBOQFFBfa/jAf8Xj4KVIcImwgcAW4YVVha\nPIXfg805n4uTu9leE07vzTwBYwKBgQDYGGQlzxzCITM0jd96O/03F2aQ0lKm8VjX\nfZhrqrB82ByEksnJDl95Vc86UouzUfC+FNIYMUgh/WApDADjIef+27CRjf7nIfTz\n9NM6T/lLhHxCd+hfuicUlh9QMFVVxj4qg/lZaTs84o0o05KeWMPBvKcUPijOK1LG\nk+OCbiUxZwKBgDyhU0ZTbDs6TGe6zsrSBVGtUU3wAJVnzsqz7a8oYITi2lRZaI+w\nmJz/I+PGiP6uVzp5ztvVvmoDc11jDrCuGgtS7mvUKGqyF795Xvc2DjHDRBTc3S+x\n+X4ogCKPhqCIHzeju2N6NC1V0M7jKkFekkD+U2kMNV3QcRBAOtwcd+ajAoGBAKdX\nZB5/X7bZvOyCvT/MOs+x2GRn60eKeJEPmrwtx1Q2iwcDIS4Ialjs4Xg5uiNYXgTk\n3LmNWF2x+AhxWjKJ7D1JZVeiTXYxrp5IxlZO3i/j3dIfRxzybBceFgukEkFFLpj/\n8FWUDyKcElI+XTkwZg+ehwg/Bpx5ojVTCwjTQQwbAoGAGUQKiCO+X5NkVe+HQnB7\nnJ9z4iNmaU3UD0DLRNEOMLm10RaGungS09okk1sjqXrP+10zkICcPztzHJyrHcTi\nhenHFUoUd6bKxiZTjpFL1eQ6Q0kEpBLEkQceKXdwzECOUqG+mKQcuGCTUhfGltwr\nyKd8AScuGFe+dqd0iKe02no=\n-----END PRIVATE KEY-----\n",
+  "client_email": "docai-sa@crucial-haiku-321308.iam.gserviceaccount.com",
+  "client_id": "106516458974119408636",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/docai-sa%40crucial-haiku-321308.iam.gserviceaccount.com"
+}
