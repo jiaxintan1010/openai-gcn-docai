@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # info_extraction
 
 Information Extraction from Semi-Structured Documents.
